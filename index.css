@@ -40,7 +40,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  translate: -200px;
+  translate: -800px;
   animation: load-row 1s calc(var(--delay) * 50ms) forwards;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .row:nth-child(2n) {
-  translate: 200px;
+  translate: 800px;
 }
 
 @keyframes load-row {
@@ -107,7 +107,7 @@
     translate: 0;
   }
   100% {
-    translate: -200px;
+    translate: -800px;
   }
 }
 
@@ -116,7 +116,7 @@
     translate: 0;
   }
   100% {
-    translate: 200px;
+    translate: 800px;
   }
 }
 
